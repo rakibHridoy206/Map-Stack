@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Map-Stack-Demo-Project</string>
+    <string name="mapbox">MapBox</string>
+    <string name="location">Location</string>
+    <string name="mapbox_access_token">
+        pk.eyJ1IjoicmFraWJocmlkb3kyMDYiLCJhIjoiY2tqY2VqbXZuNjF4bTJzbjQzZGRtZ245ZyJ9.Y3yA4-KC2QftqvysgR0LSg</string>
+    <string name="location_name">Location Name</string>
+
+    <string name="parse_all_data">"Received all %d data from database"</string>
+    <string name="network_connected">"Network is connected"</string>
+    <string name="network_not_connected_cannot_parse_all_data">"Network is not connected and cannot parse any data"</string>
+    <string name="network_not_connected_data_from_local_db">"Network is not connected and data shown from local DB"</string>
+    <string name="cannot_parse_all_data">Can not get all data from database</string>
+    <string name="cannot_parse_any_data">No data stored to local database</string>
+    <string name="cannot_delete_database">Some Error in deleting table</string>
+    <string name="error_status">Error in Data or something</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="purple">#FF3700B3</string>
+    <string name="teal">#FF018786</string>
+    <string name="menu_dark">Dark</string>
+    <string name="menu_street">Street</string>
+</resources>

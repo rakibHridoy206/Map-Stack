@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="locationDB"
+            type="com.example.hridoy.map_stack_demo_project.data.model.LocationInfoDB"/>
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="@dimen/dimen_10"
+        app:cardElevation="@dimen/dimen_5"
+        app:cardUseCompatPadding="true"
+        android:layout_margin="@dimen/dimen_10"
+        android:id="@+id/locationNameCardView">
+
+        <TextView
+            android:id="@+id/locationNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{locationDB.locationName}"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_size_32"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </androidx.cardview.widget.CardView>
+</layout>
